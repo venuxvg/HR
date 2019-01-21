@@ -58,3 +58,6 @@
 # Here, set([154,161,167,170,11,174,176,182]) is the set containing the distinct heights. Using the sum() and len() functions, we can compute the average.
 
 # average = 1355 / 8 = 169.375
+
+def average(array):
+    return sum(set(array)) / len(set(array))
